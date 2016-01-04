@@ -1,0 +1,12 @@
+spring:
+   data:
+      mongodb.host: localhost
+      mongodb.port: 27017
+      mongodb.uri: mongodb://localhost/central_log
+      mongodb.appCollection: application_log
+      mongodb.customerCollection: customer_log
+spark:
+      master: local
+      memory: 1024m
+      core: 3
+      paralelism: 3  
