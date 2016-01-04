@@ -2,7 +2,7 @@
 
 This is a small application to ilustrate a idea of a central log application for a company with a lot of business applications.
 
-This application uses:
+This application has two modules
 
 corporate-logging:
 - mongodb as centralized repository using spring-data and spring-mongodb adapter.
