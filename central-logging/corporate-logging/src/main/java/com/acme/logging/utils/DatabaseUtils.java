@@ -11,6 +11,11 @@ import org.springframework.stereotype.Component;
 import com.acme.logging.model.ApplicationLog;
 import com.acme.logging.repository.ApplicationLogRepository;
 
+/**
+ * Initial data
+ * 
+ * @author rnascimento
+ */
 @Component
 public class DatabaseUtils {
 

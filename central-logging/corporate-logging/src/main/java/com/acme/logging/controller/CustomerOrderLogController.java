@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.acme.logging.model.CustomerOrderLog;
 import com.acme.logging.repository.CustomerOrderLogRepository;
-import com.acme.logging.utils.DatabaseUtils;
 
 /**
  * Log Customer endpoint
@@ -22,9 +21,6 @@ public class CustomerOrderLogController {
 
     @Autowired
     private CustomerOrderLogRepository repository;
-
-    @Autowired
-    private DatabaseUtils databaseUtils;
 
     @RequestMapping(method = RequestMethod.PUT, consumes = "application/json")
     public String insertLog(@RequestBody final CustomerOrderLog log) {
